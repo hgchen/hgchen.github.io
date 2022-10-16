@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A long announcement with details
+title: Internship at Vayu Robotics
 date: 2022-10-10 16:11:00-0400
 inline: true
 ---
