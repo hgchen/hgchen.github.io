@@ -21,7 +21,8 @@ apparatus to improve the perception of autonomous vehicles.
 
 Before Vayu, I was a senior research scientist and tech lead manager at
 SenseBrain Technology, tackling challenging problems of computational photography on smartphones, such as 
-HDR night photography, under-display camera, time-of-flight 3D imaging, and ISP pipeline for next-gen imaging sensor. 
+HDR night photography, under-display camera diffraction mitigation, time-of-flight 3D imaging, and ISP pipeline for next-gen imaging sensor. 
 
-I obtained my Ph.D. degree from Rice University's 
-[Computational Imaging Lab](https://dsp.rice.edu/)/[DSP Group](https://dsp.rice.edu/) in 2019 and my B.S. degree in Imaging Science from [RIT](https://www.cis.rit.edu/) in 2013.
+I obtained my Ph.D. degree from Rice University in 2019, working in the 
+[Computational Imaging Lab](https://dsp.rice.edu/) and [DSP Group](https://dsp.rice.edu/) at the ECE Department. 
+I received my B.S. in Imaging Science (Sum Laude) from [RIT](https://www.cis.rit.edu/) in 2013.
