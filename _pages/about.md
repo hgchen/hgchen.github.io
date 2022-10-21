@@ -21,9 +21,9 @@ apparatus to improve the perception of autonomous vehicles.
 
 Before Vayu, I was a senior research scientist and tech lead manager at [SenseBrain Technology](https://www.sensebrain.ai/), 
 where I worked with [Jinwei Gu](https://www.gujinwei.org) building an R&D team to solve challenging but exciting problem
-of computational photography on smartphones. Thanks to my excellent colleagues and interns, we are able to devise state-of-the-art methods 
+of computational photography on smartphones. Thanks to my excellent colleagues and interns, we are able to devise the state-of-the-art methods 
 and datasets for [under-display camera diffraction mitigation](https://jnjaby.github.io/projects/UDC/), 
-[time-of-flight 3D transient imaging](https://tinyurl.com/itof2dtof/), [neural image compression](https://github.com/SenseBrain/JPD-SE), 
+[time-of-flight 3D transient imaging](https://pages.cs.wisc.edu/~felipe/project-pages/2021-itof2dtof/), [neural image compression](https://github.com/SenseBrain/JPD-SE), 
 HDR night photography, and ISP pipeline for next-gen imaging sensors beyond conventional RGB ones.
 
 I obtained my Ph.D. degree from Rice University in 2019, supervised by [Ashok Veeraraghaven](https://computationalimaging.rice.edu/), 
