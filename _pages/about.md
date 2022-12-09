@@ -24,8 +24,8 @@ where I worked with [Jinwei Gu](https://www.gujinwei.org) building an R&D team t
 of computational photography on smartphones. Thanks to my excellent colleagues and interns, we are able to devise the state-of-the-art methods 
 and datasets for [under-display camera diffraction mitigation](https://jnjaby.github.io/projects/UDC/), 
 [time-of-flight 3D transient imaging](https://pages.cs.wisc.edu/~felipe/project-pages/2021-itof2dtof/), [neural image compression](https://github.com/SenseBrain/JPD-SE), 
-HDR night photography, and ISP pipeline for next-gen imaging sensors beyond conventional RGB ones.
+HDR night photography, and ISP pipeline for next-gen imaging sensors beyond existing RGB ones.
 
 I obtained my Ph.D. degree from Rice University in 2019, supervised by [Ashok Veeraraghaven](https://computationalimaging.rice.edu/), 
-where [my works](/publications) are among the first to leverage deep learning alongside physics-based models for computational imaging. 
+where [my works](/publications) are among the first to leverage deep learning alongside physics-based models to solve computational imaging problems.
 I received my B.S. in Imaging Science (Magna Cum Laude) from [RIT](https://www.cis.rit.edu/) in 2013. 
