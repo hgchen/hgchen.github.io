@@ -76,15 +76,18 @@ twitter_username: # your Twitter handle
 linkedin_username: huaijinchen # your LinkedIn user name
 scholar_userid: 6E9elWUAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
+whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
+osf_id: # your OSF ID
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
+wikipedia_id: # your wikipedia id (Case sensitive)
 dblp_url: # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
 kaggle_id: # your kaggle id
@@ -94,6 +97,7 @@ pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
+youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
@@ -163,8 +167,15 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -374,5 +385,5 @@ mdb:
     css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
     js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
 medium_zoom:
-  version: "1.0.6"
-  integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
+  version: "1.0.8"
+  integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
