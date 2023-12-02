@@ -8,50 +8,50 @@ nav: true
 nav_order: 3
 ---
 
-[//]: # (## GitHub users)
+## GitHub users
 
-[//]: # ()
-[//]: # ({% if site.data.repositories.github_users %})
 
-[//]: # (<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">)
+{% if site.data.repositories.github_users %}
 
-[//]: # (  {% for user in site.data.repositories.github_users %})
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
 
-[//]: # (    {% include repository/repo_user.html username=user %})
+  {% for user in site.data.repositories.github_users %}
 
-[//]: # (  {% endfor %})
+    {% include repository/repo_user.html username=user %}
 
-[//]: # (</div>)
+  {% endfor %}
 
-[//]: # ()
-[//]: # (---)
+</div>
 
-[//]: # ()
-[//]: # ({% if site.repo_trophies.enabled %})
 
-[//]: # ({% for user in site.data.repositories.github_users %})
+---
 
-[//]: # (  {% if site.data.repositories.github_users.size > 1 %})
 
-[//]: # (  <h4>{{ user }}</h4>)
+{% if site.repo_trophies.enabled %}
 
-[//]: # (  {% endif %})
+{% for user in site.data.repositories.github_users %}
 
-[//]: # (  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">)
+  {% if site.data.repositories.github_users.size > 1 %}
 
-[//]: # (  {% include repository/repo_trophies.html username=user %})
+  <h4>{{ user }}</h4>
 
-[//]: # (  </div>)
+  {% endif %}
 
-[//]: # ()
-[//]: # (  ---)
+  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
 
-[//]: # ()
-[//]: # ({% endfor %})
+  {% include repository/repo_trophies.html username=user %}
 
-[//]: # ({% endif %})
+  </div>
 
-[//]: # ({% endif %})
+
+  ---
+
+
+{% endfor %}
+
+{% endif %}
+
+{% endif %}
 
 ## GitHub Repositories
 
