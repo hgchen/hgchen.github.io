@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://hgchen.github.io/sitemap.xml
+Sitemap: https://hgchen.com/sitemap.xml
