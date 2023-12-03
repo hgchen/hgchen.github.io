@@ -27,6 +27,7 @@ My team made strides in areas like novel image sensor, [under-display camera tec
 [3D ToF imaging](https://pages.cs.wisc.edu/~felipe/project-pages/2021-itof2dtof/), 
 and [neural image compression](https://github.com/SenseBrain/JPD-SE). 
 
-I hold a Ph.D. from Rice University, where I explored physics-aware deep learning in computational imaging, and a B.S. from RIT in Imaging Science.
+I obtained my Ph.D. in Electrical and Computer Engineering from Rice University in 2019, 
+where I explored physics-aware deep learning in computational imaging, and a B.S. from RIT in Imaging Science in 2013.
 
 
