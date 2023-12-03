@@ -18,7 +18,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 I currently lead the Computational Imaging team at Vayu Robotics, focusing on enhancing autonomous vehicle perception through 
-innovative imaging techniques. Vayu is supported by notable VC and industry leader, including 
+innovative imaging techniques. Vayu is supported by notable VCs and industry leaders, including 
 [Khosla Ventures and Lockheed Martin](https://www.vayurobotics.com/press-releases/vayu-robotics-emerges-from-stealth-with-12-7-million-in-seed-funding-from-khosla-ventures-and-lockheed-martin-ventures), 
 and guided by globally renowned AI scientist [Geoffrey Hinton](https://twitter.com/geoffreyhinton/status/1712171599636435105).
 
