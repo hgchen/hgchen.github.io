@@ -28,6 +28,6 @@ My team made strides in areas like novel image sensor, [under-display camera tec
 and [neural image compression](https://github.com/SenseBrain/JPD-SE). 
 
 I obtained my Ph.D. in Electrical and Computer Engineering from Rice University in 2019, 
-where I explored physics-aware deep learning in computational imaging, and a B.S. from RIT in Imaging Science in 2013.
-
+where I explored physics-aware deep learning in computational imaging, 
+and obtained my B.S. from RIT in Imaging Science in 2013.
 
