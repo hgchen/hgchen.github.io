@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 陳懷瑾 | Computational Imaging Lead, <a href='https://www.vayurobotics.com/'>Vayu Robotics</a>
+subtitle: 陳懷瑾 | Assistant Professor, <a href='https://www.ics.hawaii.edu/'>University of Hawaii at Manoa</a>
 
 profile:
   align: right
