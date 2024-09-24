@@ -17,9 +17,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I currently lead the Computational Imaging team at Vayu Robotics, focusing on enhancing autonomous vehicle perception through 
-innovative imaging techniques. Vayu is supported by notable VCs and industry leaders, including 
-[Khosla Ventures and Lockheed Martin](https://www.vayurobotics.com/press-releases/vayu-robotics-emerges-from-stealth-with-12-7-million-in-seed-funding-from-khosla-ventures-and-lockheed-martin-ventures), 
+I'm an Assistant Professor of Computer Science at University of Hawaii at Manoa, where I direct the Computational Imaging
+and Robotic Perception Lab.
+
+From 2022 to 2024, I was the founding Computational Imaging Lead at Vayu Robotics, focusing on enhancing autonomous vehicle perception through 
+innovative imaging techniques. Vayu is backed by
+[Khosla Ventures](https://www.vayurobotics.com/press-releases/vayu-robotics-emerges-from-stealth-with-12-7-million-in-seed-funding-from-khosla-ventures-and-lockheed-martin-ventures), 
 and advised by globally renowned AI scientist [Geoffrey Hinton](https://twitter.com/geoffreyhinton/status/1712171599636435105).
 
 From 2019 to 2022, I was with SenseBrain Technology, where I contributed to computational photography on smartphones. 
