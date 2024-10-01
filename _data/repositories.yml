@@ -1,9 +1,14 @@
 github_users:
-  - hgchen
+  - torvalds
+  - alshedivat
+
+repo_description_lines_max: 2
 
 github_repos:
-  - SenseBrain/JPD-SE
-  - ImagingLyceum-ASU/dco-pinhole-restoration
-  - hulitaotom/Joint-Multi-Scale-Tone-Mapping-and-Denoising-for-HDR-Image-Enhancement
-  - jnjaby/DISCNet
-  - YichengWu/PhaseCam3D
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons

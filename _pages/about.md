@@ -2,36 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: 陳懷瑾 | Assistant Professor, <a href='https://www.ics.hawaii.edu/'>University of Hawaii at Manoa</a>
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  # address: >
-  #   <p>380 Portage Ave</p>
-  #   <p>Palo Alto, CA 94306</p>
+  more_info: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: true # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
 
-I'm an Assistant Professor of Computer Science at University of Hawaii at Manoa, where I direct the Computational Imaging
-and Robotic Perception Lab.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-From 2022 to 2024, I was the founding Computational Imaging Lead at Vayu Robotics, focusing on enhancing autonomous vehicle perception through 
-innovative imaging techniques. Vayu is backed by
-[Khosla Ventures](https://www.vayurobotics.com/press-releases/vayu-robotics-emerges-from-stealth-with-12-7-million-in-seed-funding-from-khosla-ventures-and-lockheed-martin-ventures), 
-and advised by globally renowned AI scientist [Geoffrey Hinton](https://twitter.com/geoffreyhinton/status/1712171599636435105).
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-From 2019 to 2022, I was with SenseBrain Technology, where I contributed to computational photography on smartphones. 
-My team made strides in areas like novel image sensor, [under-display camera tech](https://jnjaby.github.io/projects/UDC/), 
-[3D ToF imaging](https://pages.cs.wisc.edu/~felipe/project-pages/2021-itof2dtof/), 
-and [neural image compression](https://github.com/SenseBrain/JPD-SE). 
-
-I obtained my Ph.D. in Electrical and Computer Engineering from Rice University in 2019, 
-where I explored physics-aware deep learning in computational imaging, 
-and obtained my B.S. from RIT in Imaging Science in 2013.
-
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
