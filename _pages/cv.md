@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: https://drive.google.com/file/d/1mQKq_akb1MXvlJllmYiM7BfDnZY0Efe8/view
+cv_pdf: hgc_cv.pdf
 description: Short bio - Huaijin Chen is an Assistant Professor of Computer Science at the University of Hawaiʻi at 
   Mānoa, where he directs the Computational Imaging and Robotic Perception (CIRP) Lab. He earned his Ph.D. in 
   Electrical and Computer Engineering from Rice University in 2019 and a B.S. in Imaging Science from the 
