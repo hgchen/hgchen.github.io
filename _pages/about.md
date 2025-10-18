@@ -19,8 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I'm an Assistant Professor of Computer Science at University of Hawaii at Manoa (UHM), where I direct the Computational Imaging
-and Robotic Perception Lab. I'm looking for 1-2 motivated PhD student with optics/imaging background to join my lab in Spring/Fall 2025.
-Please reach out to me if interested!
+and Robotic Perception Lab. 
 
 Prior to UHM, from 2022 to 2024, I was the founding Computational Imaging Lead at Vayu Robotics, focusing on enhancing autonomous vehicle perception through 
 innovative imaging techniques. Vayu is backed by
