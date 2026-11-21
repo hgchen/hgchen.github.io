@@ -1,34 +1,22 @@
 #!/bin/bash
+set -euo pipefail
 
-CONFIG_FILE=_config.yml
-
-# Function to manage Gemfile.lock
-manage_gemfile_lock() {
-    git config --global --add safe.directory '*'
-    if command -v git &> /dev/null && [ -f Gemfile.lock ]; then
-        if git ls-files --error-unmatch Gemfile.lock &> /dev/null; then
-            echo "Gemfile.lock is tracked by git, keeping it intact"
-            git restore Gemfile.lock 2>/dev/null || true
-        else
-            echo "Gemfile.lock is not tracked by git, removing it"
-            rm Gemfile.lock
-        fi
+bundle check || bundle install
+jekyll_pid=
+stop_jekyll() {
+    if [[ -n "$jekyll_pid" ]]; then
+        kill "$jekyll_pid" 2>/dev/null || true
+        wait "$jekyll_pid" 2>/dev/null || true
     fi
 }
-
-start_jekyll() {
-    manage_gemfile_lock
-    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
-}
-
-start_jekyll
+trap stop_jekyll EXIT
+trap 'exit 0' INT TERM
 
 while true; do
-    inotifywait -q -e modify,move,create,delete $CONFIG_FILE
-    if [ $? -eq 0 ]; then
-        echo "Change detected to $CONFIG_FILE, restarting Jekyll"
-        jekyll_pid=$(pgrep -f jekyll)
-        kill -KILL $jekyll_pid
-        start_jekyll
-    fi
+    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload \
+        --verbose --trace --force_polling --destination /tmp/_site &
+    jekyll_pid=$!
+    inotifywait -q -e modify,move_self,delete_self _config.yml
+    stop_jekyll
+    jekyll_pid=
 done

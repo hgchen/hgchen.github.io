@@ -12,8 +12,12 @@ profile:
   #   <p>380 Portage Ave</p>
   #   <p>Palo Alto, CA 94306</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 10
+latest_posts:
+  enabled: false
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
