@@ -389,6 +389,7 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
+    - 'https://hgchen\.com/cirp-lab/' # keep the lab in the same tab during local previews
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

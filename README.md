@@ -21,7 +21,7 @@ bundle exec jekyll serve
 ## Site content
 
 - Edit the biography and homepage news limit in `_pages/about.md`. The full news archive uses the entries in `_news/`.
-- Add publications to `_bibliography/papers.bib`. Update `_data/socials.yml` for contact links and `_data/repositories.yml` for repository cards.
+- Add publications to `_bibliography/papers.bib`. Update `_data/socials.yml` for contact links.
 - Edit the short bio in `_pages/cv.md` and replace `assets/pdf/hgc_cv.pdf` to update the downloadable CV.
 
 To check a theme update, run `bundle exec al-folio upgrade audit` and `JEKYLL_ENV=production bundle exec jekyll build`. The deploy workflow publishes the built site to GitHub Pages on pushes to the default branch.
