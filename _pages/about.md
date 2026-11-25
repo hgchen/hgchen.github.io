@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 陳懷瑾 | Assistant Professor of Computer Science | <a href='https://hgchen.com/cirp-lab/'>Computational Imaging and Robotic Perception (CIRP) Lab</a> | <a href='https://www.ics.hawaii.edu/'>University of Hawaiʻi at Mānoa</a>
+subtitle: 陳懷瑾 | Assistant Professor of Computer Science<br><a href='https://hgchen.com/cirp-lab/'>Computational Imaging and Robotic Perception (CIRP) Lab</a> | <a href='https://www.ics.hawaii.edu/'>University of Hawaiʻi at Mānoa</a>
 
 profile:
   align: right
@@ -22,7 +22,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I direct the Computational Imaging and Robotic Perception (CIRP) Lab. We develop imaging and perception systems for *robotics* and *scientific instrumentation*. We design sensors and algorithms together to help robots understand their surroundings and scientists measure how physical systems change. [Explore our current research](https://hgchen.com/cirp-lab/).
+At CIRP Lab, we develop imaging and perception systems for *robotics* and *scientific instrumentation*. We design sensors and algorithms together to help robots understand their surroundings and scientists measure how physical systems change. [Explore our current research](https://hgchen.com/cirp-lab/).
 
 <aside class="card p-3 my-3" aria-labelledby="prospective-students">
   <strong id="prospective-students">Prospective students</strong>
