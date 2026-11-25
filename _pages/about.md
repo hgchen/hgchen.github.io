@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 陳懷瑾 | Assistant Professor of Computer Science, <a href='https://www.ics.hawaii.edu/'>University of Hawaiʻi at Mānoa</a>
+subtitle: 陳懷瑾 | Assistant Professor of Computer Science | <a href='https://hgchen.com/cirp-lab/'>Computational Imaging and Robotic Perception (CIRP) Lab</a> | <a href='https://www.ics.hawaii.edu/'>University of Hawaiʻi at Mānoa</a>
 
 profile:
   align: right
